@@ -1,4 +1,4 @@
-# Cisco Live Amsterdam 2023 BRKDCN-2673 Demo
+# Cisco Live US 2023 BRKDCN-2673 Demo
 
 ## Setup
 
@@ -24,7 +24,7 @@ Update the `cloud` block within the `terraform` configuration in `main.tf` to po
 ```terraform
 terraform {
   cloud {
-    organization = "CLAMS23"
+    organization = "CiscoLive"
 
     workspaces {
       name = "BRKDCN-2673-Demo"
