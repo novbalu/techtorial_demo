@@ -7,6 +7,7 @@ apic:
         - name: VRF1
 
       bridge_domains:
+        # App-centric BDs
         - name: VLAN101
           vrf: VRF1
           subnets:
@@ -23,6 +24,7 @@ apic:
       application_profiles:
         - name: DEV
           endpoint_groups:
+            # App centric EPGs
             - name: VLAN101
               bridge_domain: VLAN101
             - name: VLAN102
