@@ -106,7 +106,7 @@ jobs:
       - name: Checkout Github Pages
         uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: gh_pages
 
       - name: Publish Github Pages
         run: |
