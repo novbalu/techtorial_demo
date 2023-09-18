@@ -1,4 +1,4 @@
-# Cisco Live US 2023 BRKDCN-2673 Demo
+# Cisco Techtorial 2023 Demo: 'ACI as Code a la Cisco CX'
 
 ## Setup
 
@@ -15,8 +15,8 @@ Set environment variables pointing to APIC:
 
 ```shell
 export ACI_USERNAME=admin
-export ACI_PASSWORD=Cisco123
-export ACI_URL=https://10.1.1.1
+export ACI_PASSWORD=!v3G@!4@Y
+export ACI_URL=https://sandboxapicdc.cisco.com
 ```
 
 Update the `cloud` block within the `terraform` configuration in `main.tf` to point to your Terraform Cloud Organization and Workspace:
@@ -24,10 +24,10 @@ Update the `cloud` block within the `terraform` configuration in `main.tf` to po
 ```terraform
 terraform {
   cloud {
-    organization = "CiscoLive"
+    organization = "balnovak"
 
     workspaces {
-      name = "BRKDCN-2673-Demo"
+      name = "techtorial-demo"
     }
   }
 }
