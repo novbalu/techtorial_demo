@@ -3,6 +3,8 @@ apic:
   tenants:
     - name: Techtorial
 
+      description: "AaC demo tenant by balnovak"
+
       vrfs:
         - name: VRF1
         - name: VRF2
