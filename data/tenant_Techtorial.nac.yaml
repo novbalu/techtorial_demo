@@ -5,6 +5,7 @@ apic:
 
       vrfs:
         - name: VRF1
+        - name: VRF2
 
       bridge_domains:
         # App-centric BDs
