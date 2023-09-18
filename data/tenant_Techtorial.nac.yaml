@@ -1,22 +1,22 @@
 ---
 apic:
   tenants:
-    - name: BRKDCN-2673
+    - name: Techtorial
 
       vrfs:
-        - name: CL
+        - name: VRF1
 
       bridge_domains:
         - name: VLAN101
-          vrf: CL
+          vrf: VRF1
           subnets:
             - ip: 10.1.0.1/24
         - name: VLAN102
-          vrf: CL
+          vrf: VRF1
           subnets:
             - ip: 10.1.1.1/24
         - name: VLAN103
-          vrf: CL
+          vrf: VRF1
           subnets:
             - ip: 10.1.2.1/23
 

@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    organization = "CiscoLive"
+    organization = "balnovak"
 
     workspaces {
-      name = "BRKDCN-2673-Demo"
+      name = "techtorial-demo"
     }
   }
 }
